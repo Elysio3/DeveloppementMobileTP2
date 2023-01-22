@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">DeveloppementMobileTP2</string>
+
+    <string name="text_login_info">Please Enter your account informations to log in</string>
+
+    <string name="text_login">Username or email :</string>
+    <string name="text_hint_login">username/email</string>
+
+    <string name="text_password">Password :</string>
+    <string name="text_hint_password">password</string>
+
+    <string name="text_btn_login">Log in</string>
+
+    <string name="text_img_ort_world_desc">ORT World</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>

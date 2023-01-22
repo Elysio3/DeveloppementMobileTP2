@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DeveloppementMobileTP2</string>
+
+    <string name="text_login_info">Merci d\'entrer vos informations de compte pour vous connecter</string>
+
+    <string name="text_login">Nom d\'utilisateur ou adresse mail :</string>
+    <string name="text_hint_login">nom d\'utilisateur/adresse mail</string>
+
+    <string name="text_password">Mot de passe :</string>
+    <string name="text_hint_password">mot de passe</string>
+
+    <string name="text_btn_login">Se connecter</string>
+
+    <string name="text_img_ort_world_desc">ORT Monde</string>
+</resources>

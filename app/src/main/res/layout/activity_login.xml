@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/textView_login_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="50dp"
+        android:gravity="center"
+        android:text="@string/text_login_info" />
+
+    <TextView
+        android:id="@+id/textView_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_login" />
+
+    <EditText
+        android:id="@+id/editText_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="test"
+        android:hint="@string/text_hint_login"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColorHint="#757575" />
+
+    <TextView
+        android:id="@+id/textView_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_password" />
+
+    <EditText
+        android:id="@+id/editText_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="password"
+        android:hint="@string/text_hint_password"
+        android:inputType="textPassword"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/text_btn_login"
+        android:textColor="@color/white"
+        android:onClick="login"/>
+
+    <ImageView
+        android:id="@+id/imageView_ort_world"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/text_img_ort_world_desc"
+        app:srcCompat="@drawable/ort_logo" />
+
+</LinearLayout>
